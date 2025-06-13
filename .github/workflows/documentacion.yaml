@@ -10,8 +10,8 @@ jobs:
     steps:
     - name: Saludar
       uses: actions/hello-world-action-by-charlyanimado@v1.1
-        with:
-          who-to-greet: 'Charly'
+      with:
+        who-to-greet: 'Charly'
           
     - name: Tener copia local del repo
       uses: actions/checkout@v4.2.2
